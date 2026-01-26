@@ -1,29 +1,35 @@
-# Drinking Water Feasibility Prediction (GAMMAFEST)
+# Drinking Water Feasibility Prediction
 
-Competition project to predict **household drinking-water feasibility** using machine learning (classification), with an emphasis on **F1-score** due to class imbalance.
+Machine learning project to predict household drinking-water feasibility
+in Indonesia using structured household and environmental features.
 
-## Repository contents
-- `notebooks/water_quality_prediction.ipynb` — cleaned, publishable notebook version of the competition pipeline
-- `notebooks/original_competition_notebook.ipynb` — original notebook (as-is) for provenance
-- `data/` — `train.csv`, `test.csv`, and `sample_submission.csv` (competition files)
+## 🏆 Context
+Developed for the **Water Feasibility Prediction – GAMMAFEST** Kaggle competition.
+This is a binary classification task evaluated using **F1-score**.
 
-## Method summary
-Based on the accompanying report, the workflow follows CRISP-DM and includes:
-- EDA (missing values, imbalance, distribution checks)
-- Preprocessing: mode imputation, SMOTE oversampling, outlier removal (Isolation Forest)
-- Feature selection (low variance, multicollinearity, adversarial validation)
-- Model screening and tuning (tree-based boosting performs best)
+## 🧪 Data
+Structured tabular data provided by the competition.
+(Full datasets are included here for reproducibility; can be replaced with samples if needed.)
 
-The report states the best-performing tuned model is **XGBoost** with **F1 ≈ 95.78%** (std ≈ 0.0014).
+## 🤖 Approach
+- Data cleaning & preprocessing
+- Handling class imbalance
+- Feature inspection
+- Model benchmarking (XGBoost, LightGBM, CatBoost)
+- Final model selection based on F1-score
 
-## Quickstart (local)
-```bash
-pip install -r requirements.txt
-```
+## 📊 Results
+- **Final model:** XGBoost
+- **Metric:** F1-score
+- **Score:** **95.78%** (validation)
 
-Then open and run:
-- `notebooks/water_quality_prediction.ipynb`
+## 📁 Repository Guide
+- `notebooks/water_quality_prediction.ipynb`  
+  Clean, readable end-to-end pipeline (recommended for review)
+- `data/`  
+  Competition datasets (train/test/sample_submission)
+- `requirements.txt`  
+  Dependencies
 
-## Notes
-- This repo is intended as a portfolio artifact showcasing an end-to-end ML workflow.
-- If you prefer not to publish full datasets, replace `data/train.csv` and `data/test.csv` with small samples and update the notebook paths accordingly.
+## ⚠️ Notes
+This repository is intended as a portfolio artifact showcasing an end-to-end ML workflow.
