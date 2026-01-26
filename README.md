@@ -90,3 +90,20 @@ drinking-water-quality-prediction/
 │   ├── test.csv
 │   └── sample_submission.csv
 └── requirements.txt
+
+---
+
+## ⚠️ Notes
+- This repository is intended as a **portfolio project** showcasing
+  an end-to-end machine learning workflow using **AutoML tools (PyCaret)**.
+- The notebook is intentionally kept **clean with minimal output**
+  to improve readability and maintainability.
+- Key results and insights are **summarized in this README**
+  rather than relying on notebook output rendering.
+
+---
+
+## 👤 Author
+**Muhammad Rauf**  
+Machine Learning & Data Science
+
