@@ -91,6 +91,7 @@ drinking-water-quality-prediction/
 │   └── sample_submission.csv
 └── requirements.txt
 
+```
 ---
 
 ## ⚠️ Notes
@@ -106,4 +107,3 @@ drinking-water-quality-prediction/
 ## 👤 Author
 **Muhammad Rauf**  
 Machine Learning & Data Science
-
