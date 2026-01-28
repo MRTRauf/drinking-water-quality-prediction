@@ -99,6 +99,8 @@ Cross-validation results indicate stable performance across multiple folds.
 The learning curve demonstrates that the model generalizes well,
 with a small gap between training and validation performance.
 
+![Learning Curve](assets/learning_curve.png)
+
 ## ⚠️ Notes
 - This repository is intended as a **portfolio project** showcasing
   an end-to-end machine learning workflow using **AutoML tools (PyCaret)**.
