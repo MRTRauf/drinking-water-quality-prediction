@@ -22,7 +22,7 @@ for imbalanced classification problems.
 
 ---
 
-## 🧪 Dataset
+##  Dataset
 The dataset consists of structured household-level and environmental features
 provided by the competition organizers.
 
@@ -33,7 +33,7 @@ Files included:
 
 ---
 
-## 🔄 Workflow
+##  Workflow
 The machine learning workflow implemented in this project follows these steps:
 
 1. Data loading and initial inspection
@@ -48,7 +48,7 @@ commonly used in applied data science projects.
 
 ---
 
-## 🤖 Modeling Approach (PyCaret AutoML)
+##  Modeling Approach (PyCaret AutoML)
 This project utilizes **PyCaret**, a low-code machine learning library,
 to perform **automated model training and benchmarking**.
 
