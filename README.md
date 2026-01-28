@@ -78,38 +78,26 @@ This result demonstrates strong predictive performance
 despite the presence of class imbalance in the dataset.
 
 ---
-
-## 📁 Repository Structure
-```text
-drinking-water-quality-prediction/
-├── README.md
-├── notebooks/
-│   └── water_quality_prediction.ipynb
-├── data/
-│   ├── train.csv
-│   ├── test.csv
-│   └── sample_submission.csv
-└── requirements.txt
-
-<<<<<<< Updated upstream
-=======
-## 📈 Model Evaluation 
+## 📈 Model Evaluation Evidence
 
 **Model Benchmarking (PyCaret AutoML):**  
+The following leaderboard shows a comparison of multiple classification models.
+XGBoost achieved the highest F1-score among the evaluated models.
+
 ![Model Leaderboard](assets/model_leaderboard.png)
 
+---
+
 **Cross-Validation Performance (F1-score):**  
+Cross-validation results indicate stable performance across multiple folds.
+
 ![Cross Validation Result](assets/cv_f1.png)
 
-**Learning Curve (Generalization Behavior):**  
-![Learning Curve](assets/learning_curve.png)
-
-## Quickstart (local)
-```bash
-pip install -r requirements.txt
->>>>>>> Stashed changes
-```
 ---
+
+**Learning Curve (Generalization Behavior):**  
+The learning curve demonstrates that the model generalizes well,
+with a small gap between training and validation performance.
 
 ## ⚠️ Notes
 - This repository is intended as a **portfolio project** showcasing
@@ -118,6 +106,9 @@ pip install -r requirements.txt
   to improve readability and maintainability.
 - Key results and insights are **summarized in this README**
   rather than relying on notebook output rendering.
+- Original competition notebooks use PyCaret widget outputs
+that cannot be rendered directly on GitHub.
+
 
 ---
 
