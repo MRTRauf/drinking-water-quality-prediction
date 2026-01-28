@@ -91,6 +91,23 @@ drinking-water-quality-prediction/
 │   └── sample_submission.csv
 └── requirements.txt
 
+<<<<<<< Updated upstream
+=======
+## 📈 Model Evaluation 
+
+**Model Benchmarking (PyCaret AutoML):**  
+![Model Leaderboard](assets/model_leaderboard.png)
+
+**Cross-Validation Performance (F1-score):**  
+![Cross Validation Result](assets/cv_f1.png)
+
+**Learning Curve (Generalization Behavior):**  
+![Learning Curve](assets/learning_curve.png)
+
+## Quickstart (local)
+```bash
+pip install -r requirements.txt
+>>>>>>> Stashed changes
 ```
 ---
 
